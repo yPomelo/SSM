@@ -3,5 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
-
+    <!--mybatis层-->
+    <import resource="Spring-dao.xml"/>
+    <!--Spring层-->
+    <import resource="Spring-service.xml"/>
+    <!--SpringMVC层-->
+    <import resource="Spring-mvc.xml"/>
 </beans>
